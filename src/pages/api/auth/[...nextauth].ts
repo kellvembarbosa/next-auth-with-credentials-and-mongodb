@@ -3,7 +3,7 @@ import NextAuth from 'next-auth'
 import Providers from 'next-auth/providers'
 import { connectToDatabase } from '../../../../util/mongodb';
 // opcional para db custom... 
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 export default (req: NextApiRequest, res: NextApiResponse) => NextAuth(req, res, {
     pages: {
