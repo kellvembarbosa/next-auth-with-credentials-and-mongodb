@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import React from 'react'
 import { connectToDatabase } from '../../../../util/mongodb';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { signIn } from 'next-auth/client';
 
 export default async function (req: NextApiRequest, res: NextApiResponse) {
