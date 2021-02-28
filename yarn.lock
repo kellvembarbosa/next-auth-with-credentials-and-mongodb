@@ -2363,6 +2363,13 @@ next-auth@^3.5.1:
     require_optional "^1.0.1"
     typeorm "^0.2.30"
 
+next-nprogress-emotion@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/next-nprogress-emotion/-/next-nprogress-emotion-2.0.0.tgz#bf7407be67abe45f5d03ab2ed8448f28039024ab"
+  integrity sha512-SZpQ1BiLM6Piillmdr5lyhmcOpzRTvJ5JNOHscfNDAdDCxPCRLcK1ASzTq8oOF/m81uE8Qnqh+KlA5ufDMyJXg==
+  dependencies:
+    nprogress "^0.2.0"
+
 next@latest:
   version "10.0.7"
   resolved "https://registry.yarnpkg.com/next/-/next-10.0.7.tgz#442f8e1da7454de33b0bbcc1ce5684b923597ee6"
@@ -2489,6 +2496,11 @@ npmlog@^4.0.1, npmlog@^4.1.2:
     console-control-strings "~1.1.0"
     gauge "~2.7.3"
     set-blocking "~2.0.0"
+
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
 
 number-is-nan@^1.0.0:
   version "1.0.1"
