@@ -1,11 +1,14 @@
 import { Box, Stack, Button } from "@chakra-ui/react";
 import { useSession } from "next-auth/client";
+import React from "react";
+import Loading from "../../atoms/Loading";
 import { MenuItem } from './MenuItem'
 
 export const MenuLinks = ({ isOpen }) => {
     const [session, loading] = useSession()
+
     if (loading) {
-        return null;
+        return <Loading />;
     }
 
     return (
