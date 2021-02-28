@@ -8,7 +8,7 @@ export const MenuLinks = ({ isOpen }) => {
     const [session, loading] = useSession()
 
     if (loading) {
-        return <Loading />;
+        return <span>Carregando...</span>;
     }
 
     return (
